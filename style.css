@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+.header{
+    background: #f7b600;
+    padding: 15px;
+}
+
+.header, h1{
+    font-size: 40px;
+    color: #4e4e4e;
+    text-align: center;
+    
+
+}   
+
+.links a:hover{
+    color: #f7b600;
+    background: white;
+    
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+} 
+
+
+.area-principal {
+    width: 920px;
+    margin: auto;
+    display: flex;
+}    
+
+
+
+.area-postagens{
+    margin: 15px;
+}
+
+.postagem{
+    background: white;
+    width: 640px;
+    border-radius: 10px;
+    padding: 20px;
+}   
+
+
+.postagem h2{
+    color: #f7b600;
+    
+}   
+
+.postagem span{
+    font-size: 12px;
+ 
+}   
+
+.postagem img {
+    width: 618px;
+    margin-top: 20px;
+   
+}
+
+.postagem p{
+    width: 618px;
+}   
+
+.postagem a{
+    color: #f7b600;
+    text-decoration: none;
+}
+.postagem a:hover{
+    text-decoration: underline;
+}
+
+.direitos{
+    width: 920px;
+    background: #cccccc;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+}   
+
+.area-lateral{
+   width: 260px;
+   float: right;
+   
+}
+.post-recente{
+   background: white;
+   padding: 15px;
+   text-align: left;
+   border-radius: 10px;
+
+}
+
+.categorias{
+    background: white; 
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.post-recente h3{
+    color: #5e5f63;
+    background: #cccccc;
+    padding: 5px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.categorias h3{
+    color: #5e5f63;
+    background: #cccccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+.post-recente p{
+    font-size: 13px;
+   margin-top: 10px;
+}
+
+.post-recente a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #f7b600;
+}
+
+.post-recente a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
